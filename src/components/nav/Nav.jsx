@@ -47,24 +47,7 @@ const Nav = () => {
       >
         <RiServiceLine />
       </a>
-      <a
-        href="#portofolio"
-        className={activeNav === "#portofolio" && "active"}
-        onClick={() => {
-          setActiveNav("#portofolio");
-        }}
-      >
-        <RiServiceLine />
-      </a>
-      <a
-        href="#testimonials"
-        className={activeNav === "#testimonials" && "active"}
-        onClick={() => {
-          setActiveNav("#testimonials");
-        }}
-      >
-        <RiServiceLine />
-      </a>
+
       <a
         href="#contact"
         className={activeNav === "#contact" && "active"}
